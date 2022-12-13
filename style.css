@@ -1,0 +1,13 @@
+header {
+	padding: 0px;
+	margin: 8vh 2vw 0vh 2vw;
+}
+header h1 { 
+	rotate: 90deg;
+	width: 10em;
+	height: 3em;
+}
+header h2 {
+	width: 35vw;
+}
+
