@@ -11,3 +11,42 @@ header h2 {
 	width: 35vw;
 }
 
+.summary {
+	padding: 2em;
+	width: 20vw;
+	height: 85vh;
+}
+.summary p {
+	padding: 1em 3em;
+	width: 28vw;
+}
+
+
+.preamble {
+	width: 40vw;
+  padding-top: 2vh;
+  padding-bottom: 5vh;
+}
+.preamble p {
+}
+
+
+.supporting {	
+	margin: 0px 0vw;
+	padding: 2em 2em;
+}
+
+
+.explanation {
+	padding: 2em 40vw 2em 5vw;
+}
+
+
+.main {
+	width: 70vw;
+	padding-bottom: 10vh;
+}
+ 
+.participation {
+	padding: 1vh 3vw 1vh 6vw;
+}
