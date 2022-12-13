@@ -1,4 +1,7 @@
-<style> @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&display=swap'); </style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Montserrat&display=swap');
+</style>
+
 
 
 html {
@@ -15,8 +18,51 @@ body {
 	padding: 0;
 }
 
+p { 
+	margin-top: 0; 
+	text-align: justify;
+}
 
 
+h3 }
+	font: font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #7D775C;
+}
+
+.page-wrapper { 
+	padding: 0px;
+	margin: 0vh 5vw; 
+	background-color: rgb(119, 196, 211);
+}
+
+.intro { 
+	min-width: 470px;
+	width: 100%;
+}
+
+header {
+	color: white;
+}
+header h1 { 
+	font-variant-caps: all-small-caps;
+	background-color: rgb(234, 46, 73);
+	color: white;
+}
+header h2 {
+	font-size: 4.5em;
+	font-variant-caps: all-small-caps; 
+}
+header abbr {
+	text-decoration: none;
+	color: rgba(246,247,146,0.9);
+}
+
+.summary {
+	background-color: rgba(51, 55, 69, 0.9);
+	color: white;
+}
 
 header {
 	padding: 0px;
