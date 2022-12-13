@@ -77,3 +77,26 @@ header h2 {
 	.design-selection li {
 	padding: 1vh 1vw;
 	}
+		
+		
+  **dont foget design names need a newline ( block) and
+   shift them to the left *
+a.design-name {
+}
+
+
+   
+.zen-resources {
+	width: 42%;
+	padding: 1em 2em 1em 2em;
+}
+.zen-resources h3 {
+}
+
+.zen-resources ul {
+	padding: 1vh 0px;
+}
+
+.zen-resources li {
+	padding: 1vh 0vw;
+}
