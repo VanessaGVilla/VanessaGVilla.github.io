@@ -50,3 +50,30 @@ header h2 {
 .participation {
 	padding: 1vh 3vw 1vh 6vw;
 }
+
+
+	.benefits {
+	padding: 1em 2em;
+	}
+
+	.requirements {
+	padding: 1em 4em;
+	}
+
+	footer { 
+	padding: 1em 2em;
+	}
+
+
+	.design-selection {
+	padding: 1em 2em 1em 1em;
+	}
+	.design-selection nav {
+	padding: 1vh 0vw;
+	margin-top: 2vh;
+	}
+	.design-selection ul {
+	}
+	.design-selection li {
+	padding: 1vh 1vw;
+	}
