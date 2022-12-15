@@ -5,12 +5,11 @@
 
 
 body {
-	font-family: "tablet-gothic", verdana, arial, sans-serif;
+	font-family: 'Cardo', serif;
   }
   h2,
   h3 {
-	font-family: "tablet-gothic-condensed", "arial narrow", arial, verdana,
-	  sans-serif;
+	font-family: 'Crimson Text', serif;
   }
   h1,
   h2,
@@ -27,13 +26,14 @@ body {
   }
   body {
 	background: #ffc5df;
-	padding: 5%;
-	margin: 0;
+	overflow: auto;
+
   }
   
   h1 {
+	font-family: 'Montserrat', sans-serif;
 	color: #fff;
-	background: #ff57e0;
+	background: #ff4dde;
 	padding: 2% 4%;
 	letter-spacing: 1px;
 	display: inline-block;
@@ -44,6 +44,7 @@ body {
   
   h2 {
 	color: rgb(11, 11, 11);
+	font-family: 'Montserrat', sans-serif;
 	font-size: 100px;
 	margin: 0;
 	margin-top: 2%;
@@ -51,6 +52,7 @@ body {
 	line-height: 100%;
   }
   h3 {
+	font-family: 'Montserrat', sans-serif;
 	font-size: 25px;
 	font-weight: 100;
 	margin: 0;
@@ -71,7 +73,7 @@ body {
   }
   
   div.preamble {
-	background: #feffffa0;
+	background: #fefffff3;
 	padding: 3% 3% 3% 15%;
 	left: -15%;
 	position: relative;
