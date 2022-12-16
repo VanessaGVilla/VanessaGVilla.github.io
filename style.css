@@ -4,190 +4,326 @@
 
 
 
-body {
-	font-family: 'Cardo', serif;
-  }
-  h2,
-  h3 {
-	font-family: 'Crimson Text', serif;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-	font-weight: normal;
-  }
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Montserrat&display=swap');
+</style>
+.page-wrapper {
+	background-color: #232323;
+	padding: 10px;
+	margin: 10px; }
   
-  html {
-	background: black;
-	padding: 10%;
-  }
   body {
-	background: #ffc5df;
-	overflow: auto;
-	  width:100%;
-
-  }
-  
-  h1 {
-	font-family: 'Montserrat', sans-serif;
-	color: #fff;
-	background: #ff4dde;
-	padding: 2% 4%;
-	letter-spacing: 1px;
-	display: inline-block;
-	margin: 0px;
-	text-transform: uppercase;
-  }
- 
-  
-  h2 {
-	color: rgb(11, 11, 11);
-	font-family: 'Montserrat', sans-serif;
-	font-size: 100px;
 	margin: 0;
-	margin-top: 2%;
-	width: 60%;
-	line-height: 100%;
-  }
-  h3 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 25px;
-	font-weight: 100;
-	margin: 0;
-	padding: 5px 0;
-  }
+	font-family: "Crimson";
+	background-color: #fafdfa; }
   
-  div.summary {
-	color: #fff;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	width: 65%;
-	padding: 10px 0;
-  }
-  div.summary a {
-	color: #fff;
-	text-decoration: none;
-	border-bottom: 1px solid grey;
-  }
+  div {
+	margin-bottom: 3%;
+	position: relative; }
+	
   
-  div.preamble {
-	background: #fefffff3;
-	padding: 3% 3% 3% 15%;
-	left: -15%;
-	position: relative;
+  .intro h1 {
+	background-color: #2ba546;
 	width: 75%;
-	font-size: 90%;
-	box-sizing: border-box;
-  }
+	margin-left: -6%;
+	padding: .3em;
+	padding-left: 10%;
+	font-family: "Montserrat";
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 180%;
+	border-bottom: 5px dotted #4dbac4;
+	border-top: 5px dotted #4dbac4;
+	margin-bottom: 3%; }
+
+
+  .intro h2::after {
+	height: 170px;
+	width: 170px;
+	background-image: url("https://raw.githubusercontent.com/VanessaGVilla/vanessagvilla.github.io/master/image/yoga%2Cjpg.jpg");
+	content: "";
+	display: inline-block;
+	position: relative;
+	background-size: cover; }
+  .intro h2 {
+	font-family: "Crimson";
+	font-weight: 700;
+	color: rgb(49, 48, 48);
+	text-transform: uppercase;
+	font-size: 450%;
+	margin-top: 0;
+	margin-bottom: 1%;
+	line-height: 100%;
+	display: inline-block;
+	width: 90%;
+	margin-left: 7%; }
   
-  div.main {
-	color: rgb(11, 11, 11);
-	position: relative;
-	width: 40%;
-	padding: 20% 5%;
-  }
-  div.explanation {
-	font-size: 80%;
-  }
-  div.participation {
-	background: rgba(249, 156, 229, 0.838);
-	position: relative;
-	top: -465px;
-	right: -110%;
-	padding: 20% 15%;
-	width: 120%;
-	box-sizing: border-box;
-	font-size: 80%;
-  }
-  div.participation a {
-	color: #fff;
-	border-bottom: 1px solid grey;
-	text-decoration: none;
-  }
+  .preamble {
+	border: 5px dotted #97bd44;
+	padding: 0 3% 3% 3%;
+	border-radius: 10px; }
   
-  div.benefits {
-	color: black;
-	background: #f2f9fb;
+  p {
+	font-size: 20px; }
+  
+  h3 {
+	font-size: 25px; }
+  
+  .summary {
+	font-size: 20px; }
+	.summary p:nth-child(2) {
+	  margin-bottom: 30px; }
+  
+  .explanation {
+	background-color: #51b03d; }
+  
+  .main div {
+	width: 94%;
+	padding: 3%; }
+  
+  .explanation::after, .participation::after {
+	border-bottom: 6px dotted #C7F464;
+	content: "";
+	width: 105%;
+	height: 20px;
+	display: block;
+	top: 30px;
 	position: relative;
-	top: -400px;
-	left: -10%;
-	padding: 15% 10%;
-	font-size: 80%;
-	box-sizing: border-box;
-	width: 70%;
-  }
-  div.requirements {
-	color: black;
-	background: #f2f9fb;
+	right: 2%; }
+  
+  .benefits {
+	background-color: white;
+	margin-top: 15%; }
+	.benefits p {
+	  margin-bottom: 5px; }
+  
+  .benefits::after {
+	border-bottom: 6px dotted #ff6bc4;
+	content: "";
+	width: 105%;
+	height: 20px;
+	display: block;
+	top: 40px;
 	position: relative;
-	top: -880px;
-	right: -60%;
-	padding: 15% 10%;
-	width: 150%;
-	font-size: 80%;
-  }
-  div.requirements a {
-	color: black;
-	text-decoration: none;
-	border-bottom: 1px solid grey;
-  }
+	right: 2%; }
+  
+  .requirements {
+	background-color: #b3d568;
+	margin-top: 15%; }
+	.requirements p:nth-child(6) {
+	  background-color: #fffefda3;
+	  width: 103%;
+	  padding: 10px; }
   
   footer {
-	background: #747474;
-	padding: 8% 20% 8% 10%;
-	width: 100%;
+	background-color: #556270;
+	height: 40px;
+	width: 106%;
 	position: relative;
-	top: -880px;
-  }
-  footer a {
-	text-decoration: none;
-	border-bottom: 1px solid rgb(50, 50, 50);
-	display: inline-block;
-	color: rgb(255, 255, 255);
-	font-size: 80%;
-  }
+	right: 4%; }
+	footer a {
+	  padding: 13px;
+	  font-size: 18px;
+	  padding-top: 10px;
+	  top: 8px;
+	  position: relative;
+	  color: #352b2b;
+	  text-decoration: none;
+	  transition: .5s; }
+	footer a:nth-child(1) {
+	  margin-left: 10%; }
+	footer a:hover {
+	  color: rgb(39, 39, 39); }
   
-  aside.sidebar {
-	background: #fe8181;
-	width: 35%;
-	position: relative;
-	top: -3390px;
-	right: -70%;
-	padding: 8% 5%;
-	box-sizing: border-box;
-	margin: 0;
-	z-index: 4;
-  }
-  .sidebar ul {
-	padding: 0;
-  }
-  .sidebar li {
-	list-style: none;
-	margin-bottom: 8%;
-	list-style-position: outside;
-	color: grey;
-  }
-  .sidebar a {
-	color: black;
-	text-decoration: none;
-	border-bottom: 1px solid grey;
-	font-size: 80%;
-  }
-  .archives,
-  .zen-resources {
-	margin-top: 20%;
-  }
+  .sidebar h3 {
+	color: #C7F464; }
   
-  .extra1 {
-	background: rgba(176, 107, 141, 0.95);
-	width: 30%;
-	height: 100%;
-	right: 0;
-	top: 0;
-	bottom: 0;
+  ul li {
+	font-size: 17px;
+	color: rgb(33, 33, 33); }
+  ul a {
+	color: rgb(45, 44, 44);
+	transition: 1s; }
+  ul a:hover {
+	color: #1ba43d; }
+  
+  .summary p:nth-child(1), .summary p:nth-child(2) {
+	margin-left: 7%; }
+  
+  @media screen and (min-width: 354px) {
+	.intro h2 {
+	  width: 300px; } }
+  footer::before {
+	content: "";
+	height: 300px;
+	width: 300px;
+	background-image: url("https://raw.githubusercontent.com/VanessaGVilla/vanessagvilla.github.io/master/image/processingly-2pUP1Ts1bmo-unsplash.jpg");
 	position: absolute;
-	z-index: 3;
-  }
+	background-size: cover;
+	top: -340px;
+	left: 5%;
+	display: none; }
+  
+  @media only screen and (min-width: 600px) {
+	footer::before {
+	  display: block; } }
+  @media only screen and (min-width: 850px) {
+	footer::before {
+	  left: 30%; } }
+  @media screen and (min-width: 600px) {
+	.preamble {
+	  width: 35%;
+	  left: 55%;
+	  bottom: 700px; }
+  
+	.intro h2::after {
+	  height: 200px;
+	  width: 200px; }
+  
+	.summary {
+	  width: 50%; }
+  
+	.intro {
+	  height: 918px; }
+  
+	.explanation::after {
+	  top: 0px;
+	  height: 0px; }
+  
+	.participation::after {
+	  height: 0px;
+	  top: 20px;
+	  border-bottom: 5px dotted #50db34; }
+  
+	.explanation::before {
+	  border-bottom: 5px dotted #7ca621;
+	  content: "";
+	  width: 105%;
+	  display: block;
+	  position: relative;
+	  right: 2%; }
+  
+	.explanation {
+	  width: 60% !important;
+	  left: -3%; }
+  
+	.participation::before {
+	  height: 250px;
+	  width: 250px;
+	  background-image: url("image/processingly-2pUP1Ts1bmo-unsplash.jpg");
+	  content: "";
+	  display: inline-block;
+	  position: relative;
+	  background-size: cover;
+	  left: 65%;
+	  bottom: 150px; }
+  
+	.participation {
+	  top: -280px; }
+  
+	.benefits, .requirements {
+	  display: inline-block;
+	  width: 39% !important;
+	  margin: 2%;
+	  bottom: 300px; }
+  
+	.benefits {
+	  vertical-align: top;
+	  top: 0px; }
+  
+	.benefits::after {
+	  height: 0;
+	  top: 50px; }
+  
+	.benefits::before {
+	  content: "";
+	  height: 250px;
+	  width: 250px;
+	  background-image: url("https://raw.githubusercontent.com/VanessaGVilla/vanessagvilla.github.io/master/image/chris-ensey-16QrjudiZnE-unsplash.jpg");
+	  background-size: cover;
+	  display: inline-block;
+	  position: absolute;
+	  bottom: 438px;
+	  left: 5%; }
+  
+	.design-selection, .design-archives, .zen-resources {
+	  display: inline;
+	  float: left;
+	  width: 30%;
+	  margin: 0 1% 0 1%; }
+  
+	.requirements p:nth-child(6) {
+	  width: 118%; }
+  
+	footer {
+	  background-color: #a0ce3f;
+	  width: 310px;
+	  top: -576px;
+	  right: 10px; }
+	  footer a {
+		color: #556270; }
+	  footer a:hover {
+		color: #4ECDC4; }
+  
+	#zen-supporting {
+	  margin-bottom: -249px; } }
+  @media screen and (min-width: 885px) {
+	footer {
+	  top: -480px; } }
+  @media screen and (min-width: 800px) {
+	.intro h2 {
+	  font-size: 600%; }
+  
+	.intro h2::after {
+	  height: 250px;
+	  width: 250px;
+	  content: "";
+	  display: block;
+	  position: relative;
+	  background-size: cover;
+	  left: 30px; }
+  
+	.participation::before {
+	  left: 70%; }
+  
+	.benefits::before {
+	  content: "";
+	  height: 290px;
+	  width: 290px;
+	  background-image: url("https://raw.githubusercontent.com/VanessaGVilla/vanessagvilla.github.io/master/image/carlos-de-miguel-Kq2WV3WPrYU-unsplash.jpg");
+	  background-size: cover;
+	  display: inline-block;
+	  position: absolute;
+	  bottom: 371px;
+	  left: 20%; } }
+  @media screen and (min-width: 1030px) {
+	.intro {
+	  width: 990px;
+	  margin: auto; } }
+  @media screen and (min-width: 1105px) {
+	.intro h1 {
+	  padding-left: 30%;
+	  left: -20%;
+	  position: relative; }
+  
+	.preamble {
+	  left: 60%; }
+  
+	.participation::before {
+	  left: 75%; } }
+  @media screen and (min-width: 1030px) {
+	footer {
+	  top: -352px; } }
+  @media screen and (min-width: 1330px) {
+	footer {
+	  top: -276px; }
+  
+	footer::before {
+	  left: 50%; } }
+  @media screen and (min-width: 1500px) {
+	footer {
+	  top: -220px; }
+  
+	#zen-supporting {
+	  margin-bottom: -186px; } }
+  
